@@ -39,4 +39,4 @@ Basic overview of how the product API could fit in.
 I understand the diagram lacks event-driven architecture, 
 which plays a big role in the reliability and performance of the application. 
 However, I did not want to pretend I have a lot of knowledge in event-driven architecture.
-![img.png](img.png)
+<img width="743" alt="Image" src="https://github.com/user-attachments/assets/f7ac853e-5d20-4e8f-a553-43884479c649" />
