@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApi", "ProductsApi\ProductsApi.csproj", "{BA233C74-D9AD-4A76-8FBA-653EE5BE219E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApi.Tests", "ProductsApi.Tests\ProductsApi.Tests.csproj", "{FDC07334-88D0-4D2B-A7D9-FA2F4AEC9ECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA233C74-D9AD-4A76-8FBA-653EE5BE219E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA233C74-D9AD-4A76-8FBA-653EE5BE219E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA233C74-D9AD-4A76-8FBA-653EE5BE219E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA233C74-D9AD-4A76-8FBA-653EE5BE219E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC07334-88D0-4D2B-A7D9-FA2F4AEC9ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC07334-88D0-4D2B-A7D9-FA2F4AEC9ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC07334-88D0-4D2B-A7D9-FA2F4AEC9ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC07334-88D0-4D2B-A7D9-FA2F4AEC9ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
