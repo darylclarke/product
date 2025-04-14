@@ -17,7 +17,7 @@ This is not a full list of features I would add to a new API, but I believe it m
 1. Clone the repository
 2. Navigate to the project directory
 3. Run `dotnet ef database update` (May need install ef tools)
-4. Run
+4. Run `dotnet run`
 
 
 ### Testing
