@@ -39,14 +39,14 @@ public class ProductService(ProductDbContext context, IAppLogger<ProductService>
     public async Task<IEnumerable<Product>> GetAllProductsAsync()
     {
         logger.LogInformation("Retrieving all products");
-        return await context.Products.ToListAsync();
+        return await context.Products.AsNoTracking().ToListAsync();
     }
 
     public async Task<IEnumerable<Product>> GetProductsByColourAsync(string colour)
     {
         logger.LogInformation("Retrieving products by colour: {Colour}", colour);
         
-        return await context.Products
+        return await context.Products.AsNoTracking()
             .Where(p => p.Colour.ToLower() == colour.ToLower())
             .ToListAsync();
     }
